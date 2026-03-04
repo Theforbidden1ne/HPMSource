@@ -1,0 +1,8 @@
+﻿<Application x:Class="hyperionOverlay.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:hyperionOverlay"
+             Startup="Application_Startup">
+    <!-- Change StartupUri to Startup -->
+    <Application.Resources/>
+</Application>

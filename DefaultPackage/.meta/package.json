@@ -1,0 +1,9 @@
+{
+    "package": {
+        "folder": "_package",
+        "packageContents": [
+            "demoFile",
+            "demoFolder/DemoFolderContents"
+        ]
+    }
+}

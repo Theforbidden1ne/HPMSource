@@ -1,0 +1,49 @@
+# Hyperion Package Manager documentation - last updated 3/4/26
+
+
+A: Creating a package
+    So, creating a package for Hyperion is extremely simple!
+
+        1. Add the files to the _package folder. PLEASE do NOT change the name of this folder, it could severely break shit
+
+        2. Drag the _package folder onto the compiled "packageListGenerator" file
+
+        3. Place the contents of the output json file into .meta/package.json
+
+        4. modify "MetaPackage.json" to fit your apps description and executable name, give it an ID that is NOT in the package repo, duplicate ids are not inherently an issue, but having multiple keys with the same name could lead to severe issues. use the generator to get a random ID.
+
+        5. Use 7zip to create the ZIP archive, change the extention to .hpkg
+
+        6. Upload the package to the website, and publish!
+
+B: Compiling the package Manager
+
+    Compiling hyperion is super simple aswell!
+
+        1: Open the project in your IDE of choice
+
+        2: Windows: Run buildPackage.bat Linux: Run python buildPackage.python
+
+        2b: You WILL have to modify keys so be functional on linux, as most of this app was developed on windows.
+
+        3: Distribute!
+
+C: Using Hyperion
+
+    Using Hyperion is simple:
+
+        1: start the app
+
+        2: import a package
+
+        3: restart the app
+
+        4: launch the package
+
+
+
+Z: Note. this entire project is opensource and unobfuscated, you can modify and redistrubute any part of this application aslong as you accredit the sole developer, Xtimhedi
+
+
+
+

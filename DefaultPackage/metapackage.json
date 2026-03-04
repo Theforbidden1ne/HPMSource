@@ -1,0 +1,6 @@
+{
+    "name": "PackageTemplate",
+    "entrypoint": "install.exe",
+    "metaPath": ".meta/package.json",
+    "comment": "This is a demo package template file"
+}
